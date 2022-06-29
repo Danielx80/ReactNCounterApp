@@ -1,23 +1,28 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { SafeAreaView } from 'react-native';
+import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
+import { ContadorScreen } from './src/screens/ContadorScreen';
+import { DimensionesScreen } from './src/screens/DimensionesScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
+import { PositionScreen } from './src/screens/PositionScreen';;
+import { TareaScreen } from './src/screens/TareaScreen';
 
-const App = () => {
-  return (
-    <View style={{
-       flex: 1,
-       backgroundColor: 'gray',
-       justifyContent: 'center'
-       }}>
-      <Text style={{
-        color:'white',
-        fontSize: 55,
-        textAlign: 'center'
-      }}>
-        Hola Mundo
-      </Text>
-    </View>
+export const App = () => {
+  return(
+    <SafeAreaView style={{ 
+      flex: 1,
+      backgroundColor: '#28425B'
+    }}>
+      {/* <HolaMundoScreen /> */}
+      <ContadorScreen />
+      {/* <BoxObjectModelScreen /> */}
+      {/* <DimensionesScreen /> */}
+      {/* <PositionScreen /> */}
+      {/* <FlexScreen /> */}
+      {/* <TareaScreen /> */}
+    </SafeAreaView>
   )
 }
-export default App;
+
 
  
