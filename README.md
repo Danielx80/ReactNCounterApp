@@ -3,9 +3,13 @@
 1. Para probar la app <br />
     a. Ejecuta el comando
 
-`` npm install ``
-
     b. Corre la Aplicacion
 
-`` npx react-native run-android ``
+`` 
+npm install
+``
+<br /> 
+`` 
+npx react-native run-android
+``
 
